@@ -37,21 +37,13 @@ bash <(curl -s https://raw.githubusercontent.com/nosoultool/novel-writer-system/
 
 ### 🥇 Reasonix
 
-[Reasonix](https://reasonix.dev) AI 编程代理环境，本系统已注册为内置 skill。
-
 ```bash
-# 直接调用
 /novel-writer 我想写一本修仙小说
-
-# 或使用特定命令
 /novel-writer /novel:world    搭建世界观
 /novel-writer /novel:write    写正文
-/novel-writer /novel:anti-ai  去AI化
 ```
 
 > 详细用法见 [REASONIX.md](REASONIX.md)
-
----
 
 ### 🥇 Claude Code（全功能推荐）
 
@@ -61,118 +53,51 @@ claude
 # 输入 /novel:start
 ```
 
-支持全部 `/novel:xxx` 命令。
+### 🥈 Codex CLI · 🥉 Cursor IDE · 🏅 Windsurf · 📱 ChatGPT/Kimi · 📄 手动阅读
 
----
-
-### 🥈 Codex CLI
-
-```bash
-codex --system SKILL.md
-```
-
----
-
-### 🥉 Cursor IDE
-
-用 Cursor 打开项目目录，在 Composer 中选择 Agent 模式，输入 `/novel:start`。
-
----
-
-### 🏅 Windsurf
-
-用 Windsurf 打开项目目录，在 Cascade 中输入「请阅读 SKILL.md，启动小说创作模式」。
-
----
-
-### 📱 ChatGPT / DeepSeek / Kimi
-
-复制 `SKILL.md` 内容粘贴到对话中，然后直接描述你的创作需求。
-
----
-
-### 📄 手动阅读
-
-```bash
-cat skills/00-创作全流程/worldbuilding.md
-```
-
----
-
-## 📁 项目结构
-
-```
-novel-writer-system/
-├── install.ps1         Windows 安装脚本
-├── install.sh          Linux/macOS 安装脚本
-├── SKILL.md            入口文件
-├── CLAUDE.md           Claude Code 配置
-├── REASONIX.md         Reasonix 使用指南
-├── agents/             7 个写作智能体
-├── skills/             28 个 Skill 模块
-│   ├── 00-创作全流程/
-│   ├── 01-创作技巧/
-│   ├── 02-网文专项/
-│   ├── 03-质量审查/
-│   └── 04-工具集成/
-├── protocols/          核心协议
-├── knowledge/          写作知识库
-└── templates/          项目模板
-```
+详见各平台说明。
 
 ---
 
 ## 📜 完整命令一览
 
 ```
-🚀 创作流程
-  /novel:start      启动创作向导
-  /novel:discuss    创作讨论
+🚀 创作流程        🌍 设定管理           📋 大纲
+  /novel:start       /novel:world          /novel:outline
+  /novel:discuss     /novel:characters     /novel:snowflake
 
-🌍 设定管理
-  /novel:world      世界观搭建
-  /novel:characters 角色管理
+✍️ 写作              🔍 审查               🎨 润色
+  /novel:write        /novel:review         /novel:anti-ai
+  /novel:decoupled    /novel:check          /novel:booming
+                      /novel:quality        /novel:style-learn
+                      /novel:deslop
+                      /novel:plot-hole
 
-📋 大纲
-  /novel:outline    规划大纲
-  /novel:snowflake  雪花法
-
-✍️ 写作
-  /novel:write      正文写作
-  /novel:decoupled  解耦写作
-
-🔍 审查
-  /novel:review     章节审查
-  /novel:check      一致性检查
-  /novel:quality    质量门禁
-  /novel:deslop     去AI审查
-  /novel:plot-hole  漏洞检测
-
-🎨 润色
-  /novel:anti-ai    去AI化
-  /novel:booming    剧情引爆
-  /novel:style-learn 风格学习
-
-📦 网文
-  /novel:hook       黄金三章
-  /novel:shuang     爽点设计
-  /novel:trend      扫榜分析
-  /novel:goldfinger 金手指
-  /novel:submit     投稿适配
-
-🛠️ 工具
-  /novel:archive    存档更新
-  /novel:knowledge  知识图谱
-  /novel:memory     记忆系统
-  /novel:progress   进度追踪
+📦 网文专项          🛠️ 工具
+  /novel:hook         /novel:archive
+  /novel:shuang       /novel:knowledge
+  /novel:trend        /novel:memory
+  /novel:goldfinger   /novel:progress
+  /novel:submit
 ```
 
 ---
 
-## 🙏 致谢
+## 🙏 致谢与许可证
 
-汲取自：awesome-novel-skill / tianming-skill / chinese-webnovel-skills / claude-novel-skills / story-skills / vibe-noveling
+### 许可证
+本系统采用 **MIT License** — 你可以自由使用、修改、分发，包括商业用途。
 
----
+### 设计启发
+本系统的设计思路受以下开源项目启发，在此致谢：
 
-## 📄 许可证 · MIT
+| 项目 | 许可证 | 贡献 |
+|------|--------|------|
+| [awesome-novel-skill](https://github.com/modoojunko/awesome-novel-skill) | GPL-3.0 | 多 Agent 协作工作流与记忆系统 |
+| [tianming-skill](https://github.com/zy-zmc/tianming-skill) | CC BY-NC-SA 4.0 | 模块化提示词工程与质量门禁 |
+| [chinese-webnovel-skills](https://github.com/tance-mang/chinese-webnovel-skills) | MIT | 33 个网文 Skills 与平台适配 |
+| [claude-novel-skills](https://github.com/fnb666888/claude-novel-skills) | MIT | 解耦写作法与风格学习 |
+| [story-skills](https://github.com/ati9527/story-skills) | — | 网文 AI Agent 工具集 |
+| [vibe-noveling](https://github.com/TulanCN/vibe-noveling) | MIT | 网文创作工作流与 SSoT 修订 |
+
+本系统为独立创作，未复制上述项目的源代码。
