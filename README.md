@@ -4,6 +4,8 @@
 
 A unified creative toolbox built from the best open-source novel-writing projects on GitHub, tailored for you.
 
+[🇨🇳 **简体中文**](README.zh-CN.md)
+
 ---
 
 ## ✨ Features
