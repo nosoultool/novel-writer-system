@@ -57,4 +57,5 @@
 | 正文写作 | 写手 | chapter-writing | `/novel:write` |
 | 质量审查 | 审查官 | chapter-review | `/novel:review` |
 | 时代背景审查 | 时代背景审查官 | era-consistency | `/novel:era`（自动触发 pre-review hook） |
+| RAG语义检索 | 审查官（辅助） | rag-search | `/novel:search` — 自然语言检索全文 |
 | 语言优化 | 润色师 | anti-ai-polish | `/novel:anti-ai` |

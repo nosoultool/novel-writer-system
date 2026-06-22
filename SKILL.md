@@ -73,6 +73,8 @@ The system includes 8 specialized agents working in collaboration:
 ### 04 — Tool Integration
 | File | Description |
 |:--|:--|
+| `rag/engine.py` | ChromaDB + Ollama RAG engine |
+| `skills/04-工具集成/rag-search.md` | Semantic search via RAG |
 | `skills/04-工具集成/knowledge-graph.md` | Knowledge graph management |
 | `skills/04-工具集成/memory-system.md` | Memory system |
 | `skills/04-工具集成/progress-track.md` | Progress tracking |
