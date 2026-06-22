@@ -2,3 +2,9 @@ works/
 *.log
 .DS_Store
 Thumbs.db
+# Novel project content — do not sync
+大纲-*.md
+系统设定框架.md
+.era-knowledge/
+第*章-*.md
+小说项目/
