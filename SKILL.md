@@ -14,7 +14,7 @@ Enter any of the following commands in Claude Code to start a workflow:
 
 ## 🧠 Agent System
 
-The system includes 7 specialized agents working in collaboration:
+The system includes 8 specialized agents working in collaboration:
 
 | Agent | Responsibility | Invocation |
 |:--|:--|:--|
@@ -24,6 +24,7 @@ The system includes 7 specialized agents working in collaboration:
 | **Plot Architect** | Outline planning, volume structure, plot design | `/novel:outline` |
 | **Writer** | Body text writing, scene description, dialogue | `/novel:write` |
 | **Reviewer** | Consistency check, quality assessment, logic validation | `/novel:review` |
+| **Era Reviewer** | Tech/knowledge/institution era consistency check | `/novel:era` |
 | **Polisher** | De-AI polish, style unification, language optimization | `/novel:anti-ai` |
 
 ## 📂 Skills Index
@@ -62,6 +63,7 @@ The system includes 7 specialized agents working in collaboration:
 ### 03 — Quality Review
 | File | Description |
 |:--|:--|
+| `skills/03-质量审查/era-consistency.md` | Era consistency review |
 | `skills/03-质量审查/consistency-check.md` | Consistency check |
 | `skills/03-质量审查/quality-gates.md` | Quality gates |
 | `skills/03-质量审查/deslop-check.md` | De-AI review |
@@ -75,6 +77,12 @@ The system includes 7 specialized agents working in collaboration:
 | `skills/04-工具集成/memory-system.md` | Memory system |
 | `skills/04-工具集成/progress-track.md` | Progress tracking |
 | `skills/04-工具集成/obsidian-sync.md` | Obsidian sync |
+
+## 🪝 Hooks
+
+| File | Description |
+|:--|:--|
+| `hooks/pre-review.md` | Era consistency pre-review trigger |
 
 ## 🔄 General Workflow
 

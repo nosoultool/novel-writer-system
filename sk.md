@@ -14,7 +14,7 @@
 
 ## 🧠 智能体系统
 
-系统包含 7 个专业智能体，分工协作：
+系统包含 8 个专业智能体，分工协作：
 
 | 智能体 | 职责 | 调用方式 |
 |--------|------|----------|
@@ -24,6 +24,7 @@
 | **剧情架构师** | 大纲规划、分卷、情节设计 | `/novel:outline` |
 | **写手** | 正文写作、场景描写、对话 | `/novel:write` |
 | **审查官** | 一致性检查、质量评估、逻辑校验 | `/novel:review` |
+| **时代背景审查官** | 技术/知识/制度合理性审查，防止跨时代违和 | `/novel:era` |
 | **润色师** | 去AI化、文风统一、语言优化 | `/novel:anti-ai` |
 
 ## 📂 Skills 索引
@@ -54,6 +55,7 @@
 - skills/02-网文专项/webnovel-submit.md — 投稿/平台适配
 
 ### 质量审查
+- skills/03-质量审查/era-consistency.md — 时代背景合理性审查
 - skills/03-质量审查/consistency-check.md — 一致性检查
 - skills/03-质量审查/quality-gates.md — 质量门禁
 - skills/03-质量审查/deslop-check.md — 去AI化审查
@@ -65,6 +67,9 @@
 - skills/04-工具集成/memory-system.md — 记忆系统
 - skills/04-工具集成/progress-track.md — 进度追踪
 - skills/04-工具集成/obsidian-sync.md — Obsidian 同步
+
+### hooks
+- hooks/pre-review.md — 时代一致性审查前触发
 
 ## 🔄 通用工作流
 

@@ -9,5 +9,11 @@
 - `works/{project}/bible/` — 小说圣经（世界观/角色等）
 - `works/{project}/memory/` — 写作记忆
 
+## 系统结构
+- `agents/` — 智能体定义（8个专业智能体）
+- `skills/` — 写作技能（创作全流程/创作技巧/网文专项/质量审查/工具集成）
+- `hooks/` — 生命周期钩子（时代一致性审查前触发）
+- `.era-knowledge/` — 时代背景知识库（按项目）
+
 ## 推荐设置
 > 建议关闭思考模式 (thinking mode off)
