@@ -1,3 +1,11 @@
+---
+id: novel-discuss
+name: 创作讨论 Skill
+category: 00-创作全流程
+command: /novel:discuss
+description: 头脑风暴、讨论创作方向、解决卡点
+---
+
 # 💡 创作讨论 Skill
 
 ## 命令

@@ -1,3 +1,15 @@
+---
+id: worldbuilding-architect
+name: 世界观架构师智能体 (Worldbuilding Architect)
+type: user-invoked
+emoji: 🌍
+invocation: /novel:world
+description: 世界观设定、地理/势力/力量体系设计
+knowledge-base: agents/knowledge/worldbuilding-architect/
+created: 2026-06-21
+updated: 2026-06-25
+---
+
 # 🌍 世界观架构师 (Worldbuilding Architect)
 
 ## 职责

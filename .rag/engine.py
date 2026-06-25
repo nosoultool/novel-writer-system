@@ -173,6 +173,25 @@ class NovelRAG:
             raise KeyError(msg)
         return col
 
+    def _safe_add(
+        self, kind: str, ids: list[str], documents: list[str], metadatas: list[dict]
+    ) -> None:
+        """Add documents to a collection with auto-recovery on HNSW corruption.
+
+        ChromaDB's HNSW index can get corrupted after repeated upserts.
+        When that happens we wipe and recreate the collection automatically.
+        """
+        col = self._collection(kind)
+        try:
+            col.add(documents=documents, ids=ids, metadatas=metadatas)
+        except chromadb.errors.InternalError as exc:
+            if "hnsw" in str(exc).lower() or "compaction" in str(exc).lower():
+                self.wipe_collection(kind)
+                col = self._collection(kind)
+                col.add(documents=documents, ids=ids, metadatas=metadatas)
+            else:
+                raise
+
     def index_file(
         self,
         kind: str,
@@ -182,6 +201,9 @@ class NovelRAG:
         metadata: dict | None = None,
     ) -> int:
         """Index a single markdown file into *kind* collection.
+
+        Automatically recovers from HNSW index corruption by recreating
+        the collection and retrying.
 
         Returns number of chunks indexed.
         """
@@ -210,7 +232,7 @@ class NovelRAG:
         except Exception:
             pass
 
-        col.add(documents=chunks, ids=ids, metadatas=metadatas)
+        self._safe_add(kind, ids, chunks, metadatas)
         return len(chunks)
 
     def index_directory(
@@ -399,3 +421,30 @@ class NovelRAG:
         """Delete all collections for this novel."""
         for kind in list(self.collections):
             self.wipe_collection(kind)
+
+    def repair_all(self) -> None:
+        """Recreate all collections to fix HNSW corruption, then re-index."""
+        self.wipe_all()
+        self.index_novel()
+
+    def reindex_latest_chapter(self, chapters_dir: str | Path) -> int:
+        """Quick re-index of only the most recent chapter file.
+
+        Much faster than ``index_chapters()`` when you just wrote one chapter.
+        Picks the file with the highest numeric chapter number.
+        """
+        files = list(Path(chapters_dir).glob("*.md"))
+        if not files:
+            return 0
+        # Pick file with highest chapter number (not lexicographic last)
+        def _chapter_num(fp: Path) -> int:
+            m = re.search(r"(\d+)", fp.stem)
+            return int(m.group(1)) if m else 0
+        latest = max(files, key=_chapter_num)
+        chap_num = _chapter_num(latest)
+        return self.index_file(
+            "chapters",
+            latest,
+            doc_id=f"ch{chap_num:04d}",
+            metadata={"chapter": chap_num},
+        )

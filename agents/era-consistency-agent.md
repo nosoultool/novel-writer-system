@@ -1,3 +1,15 @@
+---
+id: era-consistency
+name: 时代背景审查官智能体 (Era Consistency Agent)
+type: user-invoked
+emoji: 🏛️
+invocation: /novel:era
+description: 技术/知识合理性审查
+knowledge-base: agents/knowledge/era-consistency/
+created: 2026-06-21
+updated: 2026-06-25
+---
+
 # 🏛️ 时代背景审查官 (Era Consistency Reviewer)
 
 ## 职责

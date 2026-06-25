@@ -1,7 +1,13 @@
 ---
-name: pre-discuss
+id: pre-discuss
+name: 讨论前检索钩子
 hook: pre-discuss
-description: 创作讨论前从 RAG 检索相关上下文
+stage: pre
+phase: discuss
+runs-on: before-discuss
+description: 讨论前准备工作
+created: 2026-06-21
+updated: 2026-06-25
 ---
 
 # 讨论前检索钩子

@@ -1,3 +1,10 @@
+---
+id: snowflake-method
+name: 雪花法大纲 Skill
+category: 01-创作技巧
+description: 从一句话到完整大纲逐步扩展
+---
+
 # ❄️ 雪花法大纲 Skill
 
 ## 命令

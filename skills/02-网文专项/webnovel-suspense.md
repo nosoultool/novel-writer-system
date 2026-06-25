@@ -1,3 +1,10 @@
+---
+id: webnovel-suspense
+name: 悬疑惊悚写作指南 Skill
+category: 02-网文专项
+description: 悬疑惊悚题材专项写作指南
+---
+
 # 🕵️ 悬疑惊悚写作指南 Skill
 
 ## 命令

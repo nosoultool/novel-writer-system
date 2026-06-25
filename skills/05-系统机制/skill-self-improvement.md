@@ -1,3 +1,10 @@
+---
+id: skill-self-improvement
+name: 技能自改进机制 Skill
+category: 05-系统机制
+description: 技能在使用后自动记录效果反馈
+---
+
 # 🔄 技能自改进机制
 
 ## 概述

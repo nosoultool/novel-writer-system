@@ -1,3 +1,10 @@
+---
+id: style-learning
+name: 风格学习 Skill
+category: 01-创作技巧
+description: 分析目标风格并应用到创作中
+---
+
 # 📚 风格学习 Skill
 
 ## 命令

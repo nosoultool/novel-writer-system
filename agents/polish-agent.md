@@ -1,3 +1,15 @@
+---
+id: polish
+name: 润色师智能体 (Polish Agent)
+type: user-invoked
+emoji: 🎨
+invocation: /novel:anti-ai
+description: 去AI化、文风统一、语言优化
+knowledge-base: agents/knowledge/polish/
+created: 2026-06-21
+updated: 2026-06-25
+---
+
 # 🎨 润色师智能体 (Polish Agent)
 
 ## 职责

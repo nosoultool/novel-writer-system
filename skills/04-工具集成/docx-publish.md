@@ -1,3 +1,10 @@
+---
+id: docx-publish
+name: DOCX生成与投稿 Skill
+category: 04-工具集成
+description: 打包为DOCX并生成投稿材料
+---
+
 # 📄 DOCX生成与投稿准备 Skill
 
 ## 命令

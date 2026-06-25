@@ -1,3 +1,10 @@
+---
+id: progress-track
+name: 进度追踪 Skill
+category: 04-工具集成
+description: 查看和管理写作进度
+---
+
 # 📈 进度追踪 Skill
 
 ## 命令

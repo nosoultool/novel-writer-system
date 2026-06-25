@@ -1,3 +1,10 @@
+---
+id: banned-words
+name: 违禁词检查 Skill
+category: 03-质量审查
+description: 检查敏感内容和违禁词
+---
+
 # 🚫 违禁词检查 Skill
 
 ## 命令

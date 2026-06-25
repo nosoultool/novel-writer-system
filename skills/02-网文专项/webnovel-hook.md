@@ -1,3 +1,10 @@
+---
+id: webnovel-hook
+name: 黄金三章/钩子 Skill
+category: 02-网文专项
+description: 开篇钩子和黄金三章设计
+---
+
 ﻿# 🎣 黄金三章/钩子 Skill
 
 ## 命令

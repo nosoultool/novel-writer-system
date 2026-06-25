@@ -1,7 +1,13 @@
 ---
-name: pre-archive
+id: pre-archive
+name: 存档前验证钩子
 hook: pre-archive
+stage: pre
+phase: archive
+runs-on: before-archive
 description: 存档前验证章节完整性和一致性
+created: 2026-06-21
+updated: 2026-06-25
 ---
 
 # 存档前验证钩子

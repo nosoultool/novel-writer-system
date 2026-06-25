@@ -1,3 +1,10 @@
+---
+id: obsidian-sync
+name: Obsidian同步 Skill
+category: 04-工具集成
+description: 同步到Obsidian知识库
+---
+
 # 🔄 Obsidian 同步 Skill
 
 ## 命令

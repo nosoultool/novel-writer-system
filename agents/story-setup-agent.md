@@ -1,3 +1,15 @@
+---
+id: story-setup
+name: 创作设定智能体 (Story Setup Agent)
+type: user-invoked
+emoji: 🎨
+invocation: /novel:characters /novel:outline /novel:world
+description: 角色/剧情/世界观一体化设定
+knowledge-base: agents/knowledge/story-setup/
+created: 2026-06-21
+updated: 2026-06-25
+---
+
 # 🎨 创作设定智能体 (Creative Setup Agent)
 
 > 整合角色设计、剧情架构、世界观搭建三大创作设定职能。

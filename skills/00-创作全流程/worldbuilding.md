@@ -1,3 +1,11 @@
+---
+id: worldbuilding
+name: 世界观搭建 Skill
+category: 00-创作全流程
+command: /novel:world
+description: 创建和扩展小说的世界观设定
+---
+
 # 🌍 世界观搭建 Skill
 
 ## 命令

@@ -1,3 +1,11 @@
+---
+id: short-story-quick
+name: 短故事快速创作 Skill
+category: 00-创作全流程
+command: /novel:short
+description: 中短篇/超短篇快速创作工作流
+---
+
 # ⚡ 短故事快速创作 Skill
 
 ## 命令

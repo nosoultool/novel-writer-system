@@ -1,3 +1,11 @@
+---
+id: archive
+name: 存档与知识更新 Skill
+category: 00-创作全流程
+command: /novel:archive
+description: 将已完成章节/卷信息更新到项目存档
+---
+
 # 📦 存档与知识更新 Skill
 
 ## 命令

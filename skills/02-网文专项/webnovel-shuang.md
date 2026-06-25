@@ -1,3 +1,10 @@
+---
+id: webnovel-shuang
+name: 爽点设计 Skill
+category: 02-网文专项
+description: 网文爽点设计
+---
+
 ﻿# ⚡ 爽点设计 Skill
 
 ## 命令

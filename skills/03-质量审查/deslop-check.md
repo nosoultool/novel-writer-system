@@ -1,3 +1,10 @@
+---
+id: deslop-check
+name: 去AI化审查 Skill
+category: 03-质量审查
+description: 专项审查AI写作痕迹
+---
+
 ﻿# 🧹 去AI化审查 Skill
 
 ## 命令

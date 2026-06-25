@@ -1,3 +1,11 @@
+---
+id: chapter-review
+name: 章节审查 Skill
+category: 00-创作全流程
+command: /novel:review
+description: 多维度审查已完成章节
+---
+
 # 🔎 章节审查 Skill
 
 ## 命令

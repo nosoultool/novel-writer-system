@@ -1,3 +1,11 @@
+---
+id: rag-search
+name: RAG语义检索 Skill
+category: 04-工具集成
+command: /novel:search
+description: 基于语义检索搜索小说全文
+---
+
 # 🔍 RAG 语义检索 Skill
 
 ## 命令

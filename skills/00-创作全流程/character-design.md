@@ -1,3 +1,11 @@
+---
+id: character-design
+name: 角色设计 Skill
+category: 00-创作全流程
+command: /novel:characters
+description: 创建和管理小说角色
+---
+
 ﻿# 👤 角色设计 Skill
 
 ## 命令

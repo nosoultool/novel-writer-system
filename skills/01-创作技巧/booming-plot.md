@@ -1,3 +1,10 @@
+---
+id: booming-plot
+name: 剧情引爆 Skill
+category: 01-创作技巧
+description: 剧情平淡/卡文时提供高强度引爆方案
+---
+
 # 💥 剧情引爆 Skill
 
 ## 命令

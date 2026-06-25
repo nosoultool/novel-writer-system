@@ -1,3 +1,10 @@
+---
+id: quality-gates
+name: 质量门禁 Skill
+category: 03-质量审查
+description: 六道质量关卡
+---
+
 # 🚧 质量门禁 Skill
 
 ## 命令

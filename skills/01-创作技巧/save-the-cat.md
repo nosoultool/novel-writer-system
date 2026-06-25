@@ -1,3 +1,10 @@
+---
+id: save-the-cat
+name: Save the Cat 节拍表 Skill
+category: 01-创作技巧
+description: 使用节拍表规划故事结构
+---
+
 # 🐱 Save the Cat 节拍表 Skill
 
 ## 命令

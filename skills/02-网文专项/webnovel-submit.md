@@ -1,3 +1,10 @@
+---
+id: webnovel-submit
+name: 投稿/平台适配 Skill
+category: 02-网文专项
+description: 适配目标平台并准备投稿
+---
+
 # 📝 投稿/平台适配 Skill
 
 ## 命令

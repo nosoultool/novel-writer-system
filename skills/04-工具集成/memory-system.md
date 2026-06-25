@@ -1,3 +1,10 @@
+---
+id: memory-system
+name: 记忆系统 Skill
+category: 04-工具集成
+description: 管理写作记忆确保跨会话连贯性
+---
+
 # 🧠 记忆系统 Skill
 
 ## 命令

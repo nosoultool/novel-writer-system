@@ -1,3 +1,10 @@
+---
+id: decoupled-writing
+name: 解耦写作法 Skill
+category: 01-创作技巧
+description: 角色特质与情节要素解耦组合
+---
+
 # 🧩 解耦写作法 Skill
 
 ## 命令

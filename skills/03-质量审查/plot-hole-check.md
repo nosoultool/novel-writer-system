@@ -1,3 +1,10 @@
+---
+id: plot-hole-check
+name: 漏洞检测 Skill
+category: 03-质量审查
+description: 检测逻辑漏洞和剧情硬伤
+---
+
 # 🕳️ 漏洞检测 Skill
 
 ## 命令

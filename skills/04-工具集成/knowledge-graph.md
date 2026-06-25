@@ -1,3 +1,10 @@
+---
+id: knowledge-graph
+name: 知识图谱管理 Skill
+category: 04-工具集成
+description: 管理实体关系网络
+---
+
 # 🕸️ 知识图谱管理 Skill
 
 ## 命令

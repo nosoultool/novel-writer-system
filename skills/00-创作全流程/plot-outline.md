@@ -1,3 +1,11 @@
+---
+id: plot-outline
+name: 大纲规划 Skill
+category: 00-创作全流程
+command: /novel:outline
+description: 规划小说整体结构和章节大纲
+---
+
 ﻿# 📋 大纲规划 Skill
 
 ## 命令

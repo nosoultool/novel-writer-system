@@ -1,3 +1,11 @@
+---
+id: anti-ai-polish
+name: 去AI化润色 Skill
+category: 00-创作全流程
+command: /novel:anti-ai
+description: 检测并去除AI写作痕迹
+---
+
 # 🎨 去AI化润色与审查 Skill
 
 ## 命令

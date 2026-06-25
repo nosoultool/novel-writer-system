@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "read",
+      "write",
+      "edit",
+      "glob",
+      "grep",
+      "Bash(python *)",
+      "Bash(git *)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(echo *)",
+      "Bash(pwd)",
+      "Bash(cd *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(type *)",
+      "Bash(which *)",
+      "Bash(mkdir *)",
+      "Bash(cp *)",
+      "Bash(mv *)",
+      "Bash(dir *)",
+      "Bash(find *)",
+      "Bash(where *)",
+      "Bash(pip *)",
+      "Bash(pip3 *)"
+    ]
+  },
+  "model": {
+    "default": "sonnet"
+  }
+}

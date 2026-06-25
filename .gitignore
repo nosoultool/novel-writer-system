@@ -2,3 +2,15 @@ works/
 *.log
 .DS_Store
 Thumbs.db
+
+# 本地 Claude Code 设置（含个人权限覆写，不提交）
+.claude/settings.local.json
+
+# ChromaDB 向量数据库（自动生成，不需要提交）
+.rag/chroma_db/
+.rag/__pycache__/
+**/__pycache__/
+
+# 小说项目专属数据（非系统代码）
+.story-system/chapters/
+.story-system/reviews/

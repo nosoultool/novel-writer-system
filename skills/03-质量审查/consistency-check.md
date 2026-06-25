@@ -1,3 +1,10 @@
+---
+id: consistency-check
+name: 一致性检查 Skill
+category: 03-质量审查
+description: 跨章节/跨卷一致性检查
+---
+
 # 🔗 一致性检查 Skill
 
 ## 命令

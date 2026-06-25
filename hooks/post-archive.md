@@ -1,7 +1,13 @@
 ---
-name: post-archive
+id: post-archive
+name: 存档后更新钩子
 hook: post-archive
-description: 存档后更新 RAG 索引和知识图谱
+stage: post
+phase: archive
+runs-on: after-archive
+description: 存档后更新RAG索引和知识图谱
+created: 2026-06-21
+updated: 2026-06-25
 ---
 
 # 存档后更新钩子

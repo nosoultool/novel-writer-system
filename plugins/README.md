@@ -1,4 +1,4 @@
-﻿# 灵境插件目录
+# 灵境插件目录
 
 每个插件一个子目录，详见 protocols/plugin-architecture.md。
 

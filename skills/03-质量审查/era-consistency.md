@@ -1,3 +1,10 @@
+---
+id: skill-era-consistency
+name: 时代一致性审查 Skill
+category: 03-质量审查
+description: 检查科技/知识是否符合世界设定
+---
+
 # 🏛️ 时代一致性审查 Skill
 
 ## 命令

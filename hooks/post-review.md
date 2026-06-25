@@ -1,7 +1,13 @@
 ---
-name: post-review
+id: post-review
+name: 审查后处理钩子
 hook: post-review
-description: 审查完成后记录审查结果
+stage: post
+phase: review
+runs-on: after-review
+description: 审查后记录更新
+created: 2026-06-21
+updated: 2026-06-25
 ---
 
 # 审查后处理钩子

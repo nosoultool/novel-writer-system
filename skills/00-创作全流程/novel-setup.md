@@ -1,3 +1,11 @@
+---
+id: novel-setup
+name: 项目初始化 Skill
+category: 00-创作全流程
+command: /novel:start
+description: 创建新小说项目或继续已有作品
+---
+
 # 🚀 项目初始化 Skill
 
 ## 命令

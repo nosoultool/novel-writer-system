@@ -1,3 +1,15 @@
+---
+id: short-story
+name: 短故事专项智能体 (Short Story Agent)
+type: user-invoked
+emoji: ⚡
+invocation: /novel:short
+description: 中短篇快速创作→投稿全流程
+knowledge-base: agents/knowledge/short-story/
+created: 2026-06-21
+updated: 2026-06-25
+---
+
 # ⚡ 短故事专项智能体 (Short Story Specialist)
 
 ## 职责

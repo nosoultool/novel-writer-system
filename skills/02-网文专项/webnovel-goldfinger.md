@@ -1,3 +1,10 @@
+---
+id: webnovel-goldfinger
+name: 金手指设计 Skill
+category: 02-网文专项
+description: 网文主角金手指设计
+---
+
 # 💎 金手指设计 Skill
 
 ## 命令

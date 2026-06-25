@@ -21,18 +21,21 @@
 
 ## 🧠 智能体系统
 
-系统包含 8 个专业智能体，分工协作：
+系统包含 10 个专业智能体，分工协作。完整注册表见 `agents/REGISTRY.md`：
 
-| 智能体 | 职责 | 调用方式 |
-|--------|------|----------|
-| **总指挥** | 任务分发、流程编排、质量把关 | 自动激活 |
-| **短故事专项** | 中短篇/超短篇快速创作→投稿全流程 | `/novel:short` |
-| **世界观架构师** | 世界观设定、地理/势力/力量体系设计 | `/novel:world` |
-| **角色设计师** | 角色创建、关系网、成长弧光 | `/novel:characters` |
-| **剧情架构师** | 大纲规划、分卷、情节设计 | `/novel:outline` |
-| **写手** | 正文写作、场景描写、对话 | `/novel:write` |
-| **审查官** | 一致性检查、质量评估、逻辑校验 | `/novel:review` |
-| **润色师** | 去AI化、文风统一、语言优化 | `/novel:anti-ai` |
+| 智能体 | 类型 | emoji | 职责 | 调用方式 |
+|:-------|:-----|:------|:-----|:---------|
+| **总指挥** | dispatcher | 🧠 | 任务分发、流程编排、质量把关 | 自动激活 |
+| **写手** | dispatcher | ✍️ | 正文写作、场景描写、对话 | Agent(prompt=...) |
+| **审查官** | dispatcher | 🔍 | 一致性检查、质量评估、逻辑校验 | Agent(prompt=...) |
+| **角色设计师** | dispatcher | 👤 | 角色创建、关系网、成长弧光 | Agent(prompt=...) |
+| **剧情架构师** | dispatcher | 📖 | 大纲规划、分卷、情节设计 | Agent(prompt=...) |
+| **世界观架构师** | user | 🌍 | 世界观设定、地理/势力/力量体系设计 | `/novel:world` |
+| **润色师** | user | 🎨 | 去AI化、文风统一、语言优化 | `/novel:anti-ai` |
+| **短故事专项** | user | ⚡ | 中短篇快速创作→投稿全流程 | `/novel:short` |
+| **时代审查官** | user | 🏛️ | 技术/知识合理性审查 | `/novel:era` |
+| **创作设定** | user | 🎨 | 角色/剧情/世界观一体化设定 | `/novel:characters /novel:outline /novel:world` |
+| **设定质检员** | user | 🔬 | 设定逻辑质检、矛盾发现、合理性验证 | `/novel:qa` |
 
 ## 📂 Skills 索引
 
@@ -69,6 +72,7 @@
 - skills/03-质量审查/deslop-check.md — 去AI化审查
 - skills/03-质量审查/banned-words.md — 违禁词检查
 - skills/03-质量审查/plot-hole-check.md — 漏洞检测
+- skills/03-质量审查/setting-qa.md — 🔬 设定质检
 
 ### 工具集成
 - skills/04-工具集成/knowledge-graph.md — 知识图谱管理
@@ -84,11 +88,12 @@
 2. /novel:world      → 搭建世界观
 3. /novel:characters → 设计角色
 4. /novel:outline    → 规划大纲
-5. /novel:write      → 逐章写作
-6. /novel:review     → 审查修改
-7. /novel:anti-ai    → 去AI化
-8. /novel:archive    → 更新知识库
-     ↻ 重复 5-8
+5. /novel:qa         → 🔬 设定质检（检查设定合理性）
+6. /novel:write      → 逐章写作
+7. /novel:review     → 审查修改
+8. /novel:anti-ai    → 去AI化
+9. /novel:archive    → 更新知识库
+     ↻ 重复 6-9
 
 ### 短故事参赛模式
 1. /novel:short      → 启动短故事专项智能体

@@ -1,7 +1,13 @@
 ---
-name: session-init
+id: session-init
+name: 会话初始化钩子
 hook: session-init
-description: 会话启动时加载项目状态和上下文
+stage: session
+phase: session
+runs-on: session-start
+description: 会话初始化
+created: 2026-06-21
+updated: 2026-06-25
 ---
 
 # 会话初始化钩子

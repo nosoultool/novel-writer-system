@@ -1,3 +1,10 @@
+---
+id: webnovel-trend
+name: 扫榜/趋势分析 Skill
+category: 02-网文专项
+description: 分析各平台热门趋势
+---
+
 # 📊 扫榜/趋势分析 Skill
 
 ## 命令
